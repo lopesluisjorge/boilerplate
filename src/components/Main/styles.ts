@@ -1,6 +1,6 @@
-'use client';
+'use client'
 
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Wrapper = styled.main`
   background-color: #06092b;
@@ -13,4 +13,4 @@ export const Wrapper = styled.main`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-`;
+`
