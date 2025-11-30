@@ -7,9 +7,13 @@ describe('<Main/>', () => {
     expect(screen.getByRole('heading', { name: /test/i })).toBeInTheDocument();
 
     expect(container.firstChild).toMatchInlineSnapshot(`
-      <h1>
-        test
-      </h1>
+      <main
+        class="sc-bRKDuR cQIcRK"
+      >
+        <h1>
+          test
+        </h1>
+      </main>
     `);
   });
 });
